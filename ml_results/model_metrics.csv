@@ -1,0 +1,4 @@
+﻿모델,Accuracy,F1,ROC-AUC
+Logistic Regression,0.868,0.926,0.845
+Random Forest,0.858,0.92,0.883
+Demographics Only (baseline),0.754,0.848,0.76
