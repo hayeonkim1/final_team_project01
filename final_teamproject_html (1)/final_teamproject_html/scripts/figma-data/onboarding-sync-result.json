@@ -1,0 +1,356 @@
+{
+  "frameMeta": {
+    "378:3072": {
+      "id": "378:3072",
+      "name": "1-02_explain",
+      "slug": "1_02_explain",
+      "width": 402,
+      "height": 1835,
+      "png": "1_02_explain.png"
+    },
+    "334:5581": {
+      "id": "334:5581",
+      "name": "1-03_situation",
+      "slug": "1_03_situation",
+      "width": 402,
+      "height": 874,
+      "png": "1_03_situation.png"
+    },
+    "334:5416": {
+      "id": "334:5416",
+      "name": "1-04_search_place01",
+      "slug": "1_04_search_place01",
+      "width": 402,
+      "height": 874,
+      "png": "1_04_search_place01.png"
+    },
+    "409:3291": {
+      "id": "409:3291",
+      "name": "membership_popup",
+      "slug": "membership_popup",
+      "width": 330,
+      "height": 220,
+      "png": "membership_popup.png"
+    },
+    "409:3292": {
+      "id": "409:3292",
+      "name": "membership_popup_finish",
+      "slug": "membership_popup_finish",
+      "width": 330,
+      "height": 220,
+      "png": "membership_popup_finish.png"
+    }
+  },
+  "hotspotsByFrame": {
+    "378:3072": [
+      {
+        "nodeId": "378:3076",
+        "name": "Frame 141",
+        "box": {
+          "x": 21.69,
+          "y": 58.59,
+          "w": 17.54,
+          "h": 17.01
+        },
+        "target": "1_home"
+      },
+      {
+        "nodeId": "378:3081",
+        "name": "Frame 105",
+        "box": {
+          "x": 38,
+          "y": 1787,
+          "w": 22,
+          "h": 33
+        },
+        "target": "1_home"
+      },
+      {
+        "nodeId": "378:3085",
+        "name": "Frame 106",
+        "box": {
+          "x": 114,
+          "y": 1787,
+          "w": 22,
+          "h": 33
+        },
+        "target": "1_04_search_place01"
+      },
+      {
+        "nodeId": "378:3093",
+        "name": "Frame 108",
+        "box": {
+          "x": 266,
+          "y": 1787,
+          "w": 22,
+          "h": 33
+        },
+        "target": "2_menu"
+      },
+      {
+        "nodeId": "378:3101",
+        "name": "Frame 75",
+        "box": {
+          "x": 20,
+          "y": 591,
+          "w": 362,
+          "h": 47
+        },
+        "target": "1_03_situation"
+      }
+    ],
+    "334:5581": [
+      {
+        "nodeId": "334:5585",
+        "name": "Frame 141",
+        "box": {
+          "x": 21,
+          "y": 47.06,
+          "w": 17.54,
+          "h": 17.01
+        },
+        "target": "1_02_explain"
+      },
+      {
+        "nodeId": "334:5592",
+        "name": "Frame 94",
+        "box": {
+          "x": 22.15,
+          "y": 204.61,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5601",
+        "name": "Frame 131",
+        "box": {
+          "x": 200.31,
+          "y": 204.61,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5611",
+        "name": "Frame 132",
+        "box": {
+          "x": 22.15,
+          "y": 379.92,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5621",
+        "name": "Frame 133",
+        "box": {
+          "x": 200.31,
+          "y": 379.92,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5631",
+        "name": "Frame 134",
+        "box": {
+          "x": 22.15,
+          "y": 555.23,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5641",
+        "name": "Frame 135",
+        "box": {
+          "x": 200.31,
+          "y": 555.23,
+          "w": 170.31,
+          "h": 164.92
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5653",
+        "name": "Frame 105",
+        "box": {
+          "x": 39,
+          "y": 826,
+          "w": 22,
+          "h": 33
+        },
+        "target": "1_home"
+      },
+      {
+        "nodeId": "334:5657",
+        "name": "Frame 106",
+        "box": {
+          "x": 115,
+          "y": 826,
+          "w": 22,
+          "h": 33
+        },
+        "type": "overlay",
+        "target": "membership_popup"
+      },
+      {
+        "nodeId": "334:5665",
+        "name": "Frame 108",
+        "box": {
+          "x": 267,
+          "y": 826,
+          "w": 22,
+          "h": 33
+        },
+        "target": "2_menu"
+      }
+    ],
+    "334:5416": [
+      {
+        "nodeId": "334:5418",
+        "name": "Group 11",
+        "box": {
+          "x": 21,
+          "y": 46.99,
+          "w": 18.54,
+          "h": 17.02
+        },
+        "target": "1_03_situation"
+      },
+      {
+        "nodeId": "334:5552",
+        "name": "이 지점 선택 box",
+        "box": {
+          "x": 20,
+          "y": 746,
+          "w": 362,
+          "h": 47
+        },
+        "target": "1_06_cabinet_select"
+      },
+      {
+        "nodeId": "334:5556",
+        "name": "Frame 105",
+        "box": {
+          "x": 38,
+          "y": 826,
+          "w": 22,
+          "h": 33
+        },
+        "target": "1_home"
+      },
+      {
+        "nodeId": "334:5568",
+        "name": "Frame 108",
+        "box": {
+          "x": 266,
+          "y": 826,
+          "w": 22,
+          "h": 33
+        },
+        "target": "2_menu"
+      }
+    ],
+    "409:3291": [
+      {
+        "nodeId": "409:3283",
+        "name": "membership_btn",
+        "box": {
+          "x": 32,
+          "y": 165,
+          "w": 266,
+          "h": 35
+        },
+        "type": "overlay",
+        "target": "membership_popup_finish"
+      }
+    ],
+    "409:3292": [
+      {
+        "nodeId": "409:3308",
+        "name": "Frame 384",
+        "box": {
+          "x": 32,
+          "y": 162,
+          "w": 266,
+          "h": 35
+        },
+        "target": "1_04_search_place01"
+      }
+    ]
+  },
+  "idToSlug": {
+    "1_home": "1_home",
+    "1-02_explain": "1_02_explain",
+    "1-03_situation": "1_03_situation",
+    "1-04_search_place01": "1_04_search_place01",
+    "membership_popup": "membership_popup",
+    "membership_popup_finish": "membership_popup_finish",
+    "1-06_cabinet_select": "1_06_cabinet_select",
+    "2-menu": "2_menu",
+    "334:2603": "3_03_borrow_price",
+    "334:2694": "3_03",
+    "334:2731": "3_02_borrow_detail11",
+    "334:2777": "3_02_borrow_detail10",
+    "334:2826": "3_02_borrow_detail09",
+    "334:2877": "3_02_borrow_detail08",
+    "334:2928": "3_02_borrow_detail07",
+    "334:2979": "3_02_borrow_detail06",
+    "334:3030": "3_02_borrow_detail05",
+    "334:3081": "3_02_borrow_detail04",
+    "334:3132": "3_02_borrow_detail03",
+    "334:3183": "3_02_borrow_detail02",
+    "334:3234": "3_02_borrow_detail01",
+    "334:3285": "3_02_borrow_detail12",
+    "334:3336": "3_02_borrow_detail13",
+    "334:3387": "3_02_borrow_detail14",
+    "334:3438": "3_02_borrow_detail15",
+    "334:3489": "3_02_borrow_detail16",
+    "334:3540": "3_02_borrow_detail17",
+    "334:3591": "3_02_borrow_detail18",
+    "334:3642": "3_02_borrow_detail19",
+    "334:3693": "3_02_borrow_detail20",
+    "334:3744": "3_02_borrow_detail21",
+    "334:3795": "3_02_borrow_detail22",
+    "334:3846": "3_02_borrow_detail23",
+    "334:3897": "3_02_borrow_detail24",
+    "334:3948": "3_01_borrow_select_전체",
+    "334:4050": "3_01_borrow_select_소형가전",
+    "334:4152": "3_01_borrow_select_소형가구",
+    "334:4254": "3_01_borrow_select_계절용품",
+    "334:4356": "3_01_borrow_select_생활용품",
+    "334:4458": "2_05_lending_complete",
+    "334:4495": "2_04_lending_info",
+    "334:4585": "2_03_product_upload03",
+    "334:4631": "2_02_product_upload02",
+    "334:4716": "2_01_product_upload01",
+    "334:4753": "2_menu",
+    "334:4813": "1_11",
+    "334:4850": "1_10_store_price",
+    "334:4948": "1_09_lending_service_select",
+    "334:5059": "1_08_address",
+    "334:5133": "1_07_service_select_02",
+    "334:5191": "1_07_service_select_01",
+    "334:5249": "1_07_service_select",
+    "334:5307": "1_06_cabinet_select",
+    "334:5416": "1_04_search_place01",
+    "334:5581": "1_03_situation",
+    "334:5709": "1_home",
+    "378:3072": "1_02_explain",
+    "409:3291": "membership_popup",
+    "409:3292": "membership_popup_finish"
+  }
+}

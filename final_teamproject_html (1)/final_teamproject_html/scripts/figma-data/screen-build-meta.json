@@ -1,0 +1,447 @@
+{
+  "frameMeta": {
+    "334:5709": {
+      "id": "334:5709",
+      "name": "1_home",
+      "slug": "1_home",
+      "width": 402,
+      "height": 874,
+      "png": "1_home.png"
+    },
+    "334:5673": {
+      "id": "334:5673",
+      "name": "1-02_explain",
+      "slug": "1_02_explain",
+      "width": 402,
+      "height": 874,
+      "png": "1_02_explain.png"
+    },
+    "334:5581": {
+      "id": "334:5581",
+      "name": "1-03_situation",
+      "slug": "1_03_situation",
+      "width": 402,
+      "height": 874,
+      "png": "1_03_situation.png"
+    },
+    "334:5416": {
+      "id": "334:5416",
+      "name": "1-04_search_place01",
+      "slug": "1_04_search_place01",
+      "width": 402,
+      "height": 874,
+      "png": "1_04_search_place01.png"
+    },
+    "334:5307": {
+      "id": "334:5307",
+      "name": "1-06_cabinet_select",
+      "slug": "1_06_cabinet_select",
+      "width": 402,
+      "height": 1062,
+      "png": "1_06_cabinet_select.png"
+    },
+    "334:5249": {
+      "id": "334:5249",
+      "name": "1-07_service_select",
+      "slug": "1_07_service_select",
+      "width": 402,
+      "height": 874,
+      "png": "1_07_service_select.png"
+    },
+    "334:5191": {
+      "id": "334:5191",
+      "name": "1-07_service_select_01",
+      "slug": "1_07_service_select_01",
+      "width": 402,
+      "height": 874,
+      "png": "1_07_service_select_01.png"
+    },
+    "334:5133": {
+      "id": "334:5133",
+      "name": "1-07_service_select_02",
+      "slug": "1_07_service_select_02",
+      "width": 402,
+      "height": 874,
+      "png": "1_07_service_select_02.png"
+    },
+    "334:5059": {
+      "id": "334:5059",
+      "name": "1-08_address",
+      "slug": "1_08_address",
+      "width": 402,
+      "height": 874,
+      "png": "1_08_address.png"
+    },
+    "334:4948": {
+      "id": "334:4948",
+      "name": "1-09_lending_service_select",
+      "slug": "1_09_lending_service_select",
+      "width": 402,
+      "height": 874,
+      "png": "1_09_lending_service_select.png"
+    },
+    "334:4850": {
+      "id": "334:4850",
+      "name": "1-10_store_price",
+      "slug": "1_10_store_price",
+      "width": 411,
+      "height": 874,
+      "png": "1_10_store_price.png"
+    },
+    "334:4813": {
+      "id": "334:4813",
+      "name": "1-11",
+      "slug": "1_11",
+      "width": 402,
+      "height": 874,
+      "png": "1_11.png"
+    },
+    "334:4753": {
+      "id": "334:4753",
+      "name": "2-menu",
+      "slug": "2_menu",
+      "width": 402,
+      "height": 874,
+      "png": "2_menu.png"
+    },
+    "334:4716": {
+      "id": "334:4716",
+      "name": "2-01_product_upload01",
+      "slug": "2_01_product_upload01",
+      "width": 402,
+      "height": 874,
+      "png": "2_01_product_upload01.png"
+    },
+    "334:4631": {
+      "id": "334:4631",
+      "name": "2-02_product_upload02",
+      "slug": "2_02_product_upload02",
+      "width": 402,
+      "height": 874,
+      "png": "2_02_product_upload02.png"
+    },
+    "334:4585": {
+      "id": "334:4585",
+      "name": "2-03_product_upload03",
+      "slug": "2_03_product_upload03",
+      "width": 402,
+      "height": 874,
+      "png": "2_03_product_upload03.png"
+    },
+    "334:4495": {
+      "id": "334:4495",
+      "name": "2-04_lending_info",
+      "slug": "2_04_lending_info",
+      "width": 402,
+      "height": 874,
+      "png": "2_04_lending_info.png"
+    },
+    "334:4458": {
+      "id": "334:4458",
+      "name": "2-05_lending_complete",
+      "slug": "2_05_lending_complete",
+      "width": 402,
+      "height": 874,
+      "png": "2_05_lending_complete.png"
+    },
+    "334:3948": {
+      "id": "334:3948",
+      "name": "3-01_borrow_select_전체",
+      "slug": "3_01_borrow_select_전체",
+      "width": 402,
+      "height": 874,
+      "png": "3_01_borrow_select_전체.png"
+    },
+    "334:4050": {
+      "id": "334:4050",
+      "name": "3-01_borrow_select_소형가전",
+      "slug": "3_01_borrow_select_소형가전",
+      "width": 402,
+      "height": 874,
+      "png": "3_01_borrow_select_소형가전.png"
+    },
+    "334:4152": {
+      "id": "334:4152",
+      "name": "3-01_borrow_select_소형가구",
+      "slug": "3_01_borrow_select_소형가구",
+      "width": 402,
+      "height": 874,
+      "png": "3_01_borrow_select_소형가구.png"
+    },
+    "334:4254": {
+      "id": "334:4254",
+      "name": "3-01_borrow_select_계절용품",
+      "slug": "3_01_borrow_select_계절용품",
+      "width": 402,
+      "height": 874,
+      "png": "3_01_borrow_select_계절용품.png"
+    },
+    "334:4356": {
+      "id": "334:4356",
+      "name": "3-01_borrow_select_생활용품",
+      "slug": "3_01_borrow_select_생활용품",
+      "width": 402,
+      "height": 874,
+      "png": "3_01_borrow_select_생활용품.png"
+    },
+    "334:3234": {
+      "id": "334:3234",
+      "name": "3-02_borrow_detail01",
+      "slug": "3_02_borrow_detail01",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail01.png"
+    },
+    "334:3183": {
+      "id": "334:3183",
+      "name": "3-02_borrow_detail02",
+      "slug": "3_02_borrow_detail02",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail02.png"
+    },
+    "334:3132": {
+      "id": "334:3132",
+      "name": "3-02_borrow_detail03",
+      "slug": "3_02_borrow_detail03",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail03.png"
+    },
+    "334:3081": {
+      "id": "334:3081",
+      "name": "3-02_borrow_detail04",
+      "slug": "3_02_borrow_detail04",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail04.png"
+    },
+    "334:3030": {
+      "id": "334:3030",
+      "name": "3-02_borrow_detail05",
+      "slug": "3_02_borrow_detail05",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail05.png"
+    },
+    "334:2979": {
+      "id": "334:2979",
+      "name": "3-02_borrow_detail06",
+      "slug": "3_02_borrow_detail06",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail06.png"
+    },
+    "334:2928": {
+      "id": "334:2928",
+      "name": "3-02_borrow_detail07",
+      "slug": "3_02_borrow_detail07",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail07.png"
+    },
+    "334:2877": {
+      "id": "334:2877",
+      "name": "3-02_borrow_detail08",
+      "slug": "3_02_borrow_detail08",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail08.png"
+    },
+    "334:2826": {
+      "id": "334:2826",
+      "name": "3-02_borrow_detail09",
+      "slug": "3_02_borrow_detail09",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail09.png"
+    },
+    "334:2777": {
+      "id": "334:2777",
+      "name": "3-02_borrow_detail10",
+      "slug": "3_02_borrow_detail10",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail10.png"
+    },
+    "334:2731": {
+      "id": "334:2731",
+      "name": "3-02_borrow_detail11",
+      "slug": "3_02_borrow_detail11",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail11.png"
+    },
+    "334:3285": {
+      "id": "334:3285",
+      "name": "3-02_borrow_detail12",
+      "slug": "3_02_borrow_detail12",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail12.png"
+    },
+    "334:3336": {
+      "id": "334:3336",
+      "name": "3-02_borrow_detail13",
+      "slug": "3_02_borrow_detail13",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail13.png"
+    },
+    "334:3387": {
+      "id": "334:3387",
+      "name": "3-02_borrow_detail14",
+      "slug": "3_02_borrow_detail14",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail14.png"
+    },
+    "334:3438": {
+      "id": "334:3438",
+      "name": "3-02_borrow_detail15",
+      "slug": "3_02_borrow_detail15",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail15.png"
+    },
+    "334:3489": {
+      "id": "334:3489",
+      "name": "3-02_borrow_detail16",
+      "slug": "3_02_borrow_detail16",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail16.png"
+    },
+    "334:3540": {
+      "id": "334:3540",
+      "name": "3-02_borrow_detail17",
+      "slug": "3_02_borrow_detail17",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail17.png"
+    },
+    "334:3591": {
+      "id": "334:3591",
+      "name": "3-02_borrow_detail18",
+      "slug": "3_02_borrow_detail18",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail18.png"
+    },
+    "334:3642": {
+      "id": "334:3642",
+      "name": "3-02_borrow_detail19",
+      "slug": "3_02_borrow_detail19",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail19.png"
+    },
+    "334:3693": {
+      "id": "334:3693",
+      "name": "3-02_borrow_detail20",
+      "slug": "3_02_borrow_detail20",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail20.png"
+    },
+    "334:3744": {
+      "id": "334:3744",
+      "name": "3-02_borrow_detail21",
+      "slug": "3_02_borrow_detail21",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail21.png"
+    },
+    "334:3795": {
+      "id": "334:3795",
+      "name": "3-02_borrow_detail22",
+      "slug": "3_02_borrow_detail22",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail22.png"
+    },
+    "334:3846": {
+      "id": "334:3846",
+      "name": "3-02_borrow_detail23",
+      "slug": "3_02_borrow_detail23",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail23.png"
+    },
+    "334:3897": {
+      "id": "334:3897",
+      "name": "3-02_borrow_detail24",
+      "slug": "3_02_borrow_detail24",
+      "width": 402,
+      "height": 874,
+      "png": "3_02_borrow_detail24.png"
+    },
+    "334:2603": {
+      "id": "334:2603",
+      "name": "3-03_borrow_price",
+      "slug": "3_03_borrow_price",
+      "width": 402,
+      "height": 874,
+      "png": "3_03_borrow_price.png"
+    },
+    "334:2694": {
+      "id": "334:2694",
+      "name": "3-03",
+      "slug": "3_03",
+      "width": 402,
+      "height": 874,
+      "png": "3_03.png"
+    }
+  },
+  "hotspotCounts": {
+    "1_home": 4,
+    "1-02_explain": 5,
+    "1-03_situation": 10,
+    "1-04_search_place01": 4,
+    "1-06_cabinet_select": 4,
+    "1-07_service_select": 7,
+    "1-07_service_select_01": 5,
+    "1-07_service_select_02": 6,
+    "1-08_address": 5,
+    "1-09_lending_service_select": 6,
+    "1-10_store_price": 5,
+    "1-11": 4,
+    "2-menu": 5,
+    "2-01_product_upload01": 5,
+    "2-02_product_upload02": 4,
+    "2-03_product_upload03": 4,
+    "2-04_lending_info": 4,
+    "2-05_lending_complete": 4,
+    "3-01_borrow_select_전체": 15,
+    "3-01_borrow_select_소형가전": 9,
+    "3-01_borrow_select_소형가구": 10,
+    "3-01_borrow_select_계절용품": 10,
+    "3-01_borrow_select_생활용품": 10,
+    "3-02_borrow_detail01": 5,
+    "3-02_borrow_detail02": 5,
+    "3-02_borrow_detail03": 5,
+    "3-02_borrow_detail04": 5,
+    "3-02_borrow_detail05": 5,
+    "3-02_borrow_detail06": 5,
+    "3-02_borrow_detail07": 5,
+    "3-02_borrow_detail08": 5,
+    "3-02_borrow_detail09": 5,
+    "3-02_borrow_detail10": 5,
+    "3-02_borrow_detail11": 5,
+    "3-02_borrow_detail12": 5,
+    "3-02_borrow_detail13": 5,
+    "3-02_borrow_detail14": 5,
+    "3-02_borrow_detail15": 5,
+    "3-02_borrow_detail16": 5,
+    "3-02_borrow_detail17": 5,
+    "3-02_borrow_detail18": 5,
+    "3-02_borrow_detail19": 5,
+    "3-02_borrow_detail20": 5,
+    "3-02_borrow_detail21": 5,
+    "3-02_borrow_detail22": 5,
+    "3-02_borrow_detail23": 5,
+    "3-02_borrow_detail24": 5,
+    "3-03_borrow_price": 5,
+    "3-03": 4
+  }
+}

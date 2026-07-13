@@ -1,0 +1,19 @@
+{
+  "name": "final_teamproject_html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "figma:check": "node scripts/check-figma-connection.mjs",
+    "figma:sync-onboarding": "node scripts/sync-onboarding-frames.mjs",
+    "figma:patch-orange": "node scripts/patch-stroke-only.mjs",
+    "start": "npx --yes serve -l 5500 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ws": "^8.21.0"
+  }
+}

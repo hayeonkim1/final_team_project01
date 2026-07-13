@@ -1,0 +1,6 @@
+﻿rank,gender,age_group,occupation,housing_type,move_frequency,storage_need_score,pain_score,trust_score,has_rental_experience,consignment_positive,is_single_household,pain_transport,pain_space,pain_cost,predicted_q6_score,predicted_prob_pct
+1,남자,20대,대학생,1인 가구,3,5,5,5,1,1,0,0,0,0,5.0,100.0
+2,남자,20대,대학생,1인 가구,3,5,5,5,1,1,0,0,0,1,5.0,100.0
+3,남자,20대,대학생,1인 가구,3,5,5,5,1,1,1,0,0,0,5.0,100.0
+4,남자,20대,대학생,1인 가구,3,5,5,5,1,1,0,1,0,0,5.0,100.0
+5,남자,20대,대학생,1인 가구,3,5,5,5,1,1,1,0,0,1,5.0,100.0

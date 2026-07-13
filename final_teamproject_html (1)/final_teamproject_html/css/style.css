@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #f0f0f0;
+  font-family: Inter, sans-serif;
+}
+
+#app {
+  width: 402px;
+  height: 874px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+#app.tall {
+  height: 1062px;
+  overflow-y: auto;
+}
+
+.screen {
+  display: none;
+  width: 402px;
+  height: 874px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.screen.active {
+  display: block;
+}
+
+/* Figma overlay frames (membership_popup 등) */
+.screen.screen--overlay {
+  display: none;
+  z-index: 20;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.screen.screen--overlay.active {
+  display: block;
+}
+
+.hotspot--overlay-close {
+  z-index: 21;
+}
+
+.hotspot {
+  position: absolute;
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10;
+}
+
+:root {
+  --main-orange: #f2b749;
+  /* Figma Frame 172 unified header layout */
+  --header-back-x: 22.2px;
+  --header-back-y: 58.58px;
+  --header-back-w: 17.95px;
+  --header-back-h: 17.01px;
+  --header-title-y: 51.49px;
+}
+
+/* Unified header back hotspot — matches Figma Frame 172 */
+.screen > .hotspot.hotspot--header-back,
+.screen > .hotspot[data-action="back"],
+.screen > .hotspot[aria-label="Frame 141"],
+.screen > .hotspot[aria-label="Frame 169"],
+.screen > .hotspot[aria-label="Frame 172"],
+.screen > .hotspot[aria-label="Vector"],
+.screen > .hotspot[aria-label="Group 11"],
+.screen > .hotspot[aria-label="Frame 144"] {
+  left: var(--header-back-x) !important;
+  top: var(--header-back-y) !important;
+  width: var(--header-back-w) !important;
+  height: var(--header-back-h) !important;
+}
+
+/* Unified page header overlay — covers baked PNG header, draws arrow + title */
+.page-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 402px;
+  height: 90px;
+  z-index: 9;
+  pointer-events: none;
+}
+
+.page-header__mask {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  width: 100%;
+  height: 46px;
+  background: #fff;
+}
+
+.page-header__arrow {
+  position: absolute;
+  left: var(--header-back-x);
+  top: var(--header-back-y);
+  width: var(--header-back-w);
+  height: var(--header-back-h);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.page-header__arrow svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.page-header__title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--header-title-y);
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 16.061px;
+  line-height: 19.44px;
+  color: #101218;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 48px;
+  box-sizing: border-box;
+}
+
+.hotspot:focus {
+  outline: none;
+}
+
+/* choosed_place_input — dynamic place name overlays (Figma typography preserved) */
+.choosed-place-input {
+  position: absolute;
+  z-index: 11;
+  pointer-events: none;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.choosed-place-input--01 {
+  left: 58px;
+  top: 255.5px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13.3125px;
+  color: #000000;
+  text-align: left;
+}
+
+.choosed-place-input--02 {
+  right: 46px;
+  left: auto;
+  top: 352.27px;
+  min-width: 40px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 10.392px;
+  line-height: 12.577px;
+  color: #101218;
+  text-align: right;
+}
+
+/* 1-04_search_place01 — selected place card stroke */
+.place-select-card {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.place-select-card--selected {
+  border-color: #f2a922;
+}
+
+/* 1-04_search_place01 — Kakao Map overlay (Figma "캡처 1": 20,346 362×145) */
+.place-search-map {
+  position: absolute;
+  left: 20px;
+  top: 346px;
+  width: 362px;
+  height: 145px;
+  z-index: 8;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+  pointer-events: auto;
+  cursor: grab;
+  user-select: none;
+}
+
+.place-search-map--dragging {
+  cursor: grabbing;
+}
+
+.place-search-map > div {
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: auto;
+}
+
+.place-search-map__error {
+  margin: 0;
+  padding: 14px 12px;
+  font-family: Inter, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #44484f;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.screen[data-screen="1_04_search_place01"] .place-select-card,
+.screen[data-screen="1_04_search_place01"] .hotspot:not(.place-select-card) {
+  z-index: 10;
+}
+
+/* 1-07_service_select — pickup / self-delivery card stroke */
+.service-select-card {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.service-select-card--selected {
+  border-color: #f2a922;
+}
+
+/* 1-08_address — address_input / text_input (Figma 334:5103 / 334:5105) */
+.address-input-icon {
+  position: absolute;
+  left: 35px;
+  top: 277px;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  line-height: 14px;
+  z-index: 13;
+  pointer-events: none;
+}
+
+.address-text-input {
+  position: absolute;
+  left: 21px;
+  top: 260px;
+  width: 358px;
+  height: 48px;
+  margin: 0;
+  padding: 0 12px 0 36px;
+  box-sizing: border-box;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  outline: none;
+  background: #fff;
+  z-index: 12;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 48px;
+  color: #5c6067;
+  caret-color: #101218;
+}
+
+.address-text-input::placeholder {
+  color: #5c6067;
+  font-weight: 700;
+}
+
+.address-text-input:focus {
+  outline: none;
+  border-color: #e8eaed;
+}
+
+/* 1-08_address — detail_address_input (Figma 334:5107) */
+.detail-address-text-input {
+  position: absolute;
+  left: 21px;
+  top: 345px;
+  width: 358px;
+  height: 48px;
+  margin: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #e8eaed;
+  border-radius: 12px;
+  outline: none;
+  background: #fff;
+  z-index: 12;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 48px;
+  color: #5c6067;
+  caret-color: #101218;
+}
+
+.detail-address-text-input:focus {
+  outline: none;
+  border-color: #e8eaed;
+}
+
+/* choosed_cabinet_input / choosed_price_input — dynamic value only (PNG static text masked) */
+.choosed-cabinet-input,
+.choosed-price-input {
+  position: absolute;
+  z-index: 11;
+  pointer-events: none;
+  white-space: nowrap;
+  background: transparent;
+}
+
+.choosed-cabinet-input--01 {
+  left: 140px;
+  top: 586.5px;
+  min-width: 51px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.943px;
+  color: #f2a922;
+  background: #fef6e9;
+}
+
+.choosed-price-input--01 {
+  left: 289px;
+  top: 586.5px;
+  min-width: 73px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.943px;
+  color: #f2a922;
+  background: #fef6e9;
+}
+
+.choosed-cabinet-input--02 {
+  right: 47px;
+  left: auto;
+  top: 378.09px;
+  min-width: 52px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 10.392px;
+  line-height: 12.577px;
+  color: #101218;
+  text-align: right;
+  background: #fff;
+}
+
+/* 1-10_store_price — price column (기본 보관료 / 합계 right-aligned) */
+.screen[data-screen="1_10_store_price"] {
+  --store-price-col-right: 40px;
+  --store-price-col-width: 80px;
+}
+
+.screen[data-screen="1_10_store_price"] .choosed-price-input--02,
+.screen[data-screen="1_10_store_price"] .total-price--01 {
+  right: var(--store-price-col-right);
+  left: auto;
+  width: var(--store-price-col-width);
+  min-width: var(--store-price-col-width);
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 10.392px;
+  line-height: 12.577px;
+  color: #101218;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  background: #fff;
+}
+
+.screen[data-screen="1_10_store_price"] .choosed-price-input--02 {
+  top: 431.51px;
+}
+
+.screen[data-screen="1_10_store_price"] .total-price--01 {
+  top: 532.51px;
+}
+
+.screen[data-screen="1_10_store_price"] .total-price--02 {
+  right: 30px;
+  left: auto;
+  top: 584.51px;
+  min-width: 74px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 16.061px;
+  line-height: 19.438px;
+  color: #f2b749;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.screen[data-screen="1_10_store_price"] .total-price,
+.screen[data-screen="1_10_store_price"] .choosed-price-input--02 {
+  position: absolute;
+  z-index: 11;
+  pointer-events: none;
+  white-space: nowrap;
+  background: transparent;
+}
+
+/* 1-06_cabinet_select — selected cabinet card stroke */
+.cabinet-select-card {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.cabinet-select-card--selected {
+  border-color: #f2a922;
+}
+
+/* 3-03_borrow_price — dynamic summary & price text */
+.screen[data-screen="3_03_borrow_price"] .borrow-price-panel {
+  position: absolute;
+  left: 36px;
+  width: 330px;
+  z-index: 11;
+  pointer-events: none;
+  font-family: Inter, sans-serif;
+  color: #101218;
+  box-sizing: border-box;
+}
+
+.screen[data-screen="3_03_borrow_price"] .borrow-price-panel--summary {
+  top: 338px;
+}
+
+.screen[data-screen="3_03_borrow_price"] .borrow-price-panel--amounts {
+  top: 432px;
+  display: flex;
+  flex-direction: column;
+}
+
+.screen[data-screen="3_03_borrow_price"] .borrow-price-panel--total {
+  top: 548px;
+}
+
+.screen[data-screen="3_03_borrow_price"] .summary-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.screen[data-screen="3_03_borrow_price"] .summary-row-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 42%;
+  min-width: 0;
+}
+
+.screen[data-screen="3_03_borrow_price"] .summary-row-value {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+  background: #fff;
+}
+
+.screen[data-screen="3_03_borrow_price"] .product-name-value,
+.screen[data-screen="3_03_borrow_price"] [data-price-product-name] {
+  max-width: 58%;
+  min-width: 0;
+  text-align: right;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-card {
+  position: relative;
+}
+
+/* Mask baked-in PNG divider above 소계 — keep single CSS divider only */
+.screen[data-screen="3_03_borrow_price"] .price-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 52px;
+  height: 22px;
+  background: #fff;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-row,
+.screen[data-screen="3_03_borrow_price"] .subtotal-row,
+.screen[data-screen="3_03_borrow_price"] .total-price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+.screen[data-screen="3_03_borrow_price"] .subtotal-row {
+  min-height: 19px;
+  height: auto;
+  align-items: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.screen[data-screen="3_03_borrow_price"] .subtotal-row::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 52%;
+  height: calc(100% + 4px);
+  background: #fff;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-label--subtotal {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 42%;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.3125px;
+  color: #101218;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-row--deposit {
+  margin-top: 15px;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-label,
+.screen[data-screen="3_03_borrow_price"] .total-price-label {
+  flex-shrink: 0;
+  flex: 0 0 42%;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-divider {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 15px 0 14px;
+  flex-shrink: 0;
+  border: 0;
+}
+
+.screen[data-screen="3_03_borrow_price"] .price-value,
+.screen[data-screen="3_03_borrow_price"] [data-price-base-fee],
+.screen[data-screen="3_03_borrow_price"] [data-price-deposit] {
+  flex: 1;
+  min-width: 110px;
+  text-align: right;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  line-height: 13.3125px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #101218;
+  background: #fff;
+}
+
+.screen[data-screen="3_03_borrow_price"] [data-price-subtotal],
+.screen[data-screen="3_03_borrow_price"] .subtotal-row .price-value {
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: right;
+  color: var(--main-orange, #f2b749);
+  position: relative;
+  z-index: 1;
+  display: block;
+  line-height: 13.3125px;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+/* Mask static PNG price text only behind dynamic value — no row-level mask */
+.screen[data-screen="3_03_borrow_price"] [data-price-subtotal]::before,
+.screen[data-screen="3_03_borrow_price"] [data-price-total]::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 4px);
+  background: #fff;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.screen[data-screen="3_03_borrow_price"] .total-price-value,
+.screen[data-screen="3_03_borrow_price"] [data-price-total] {
+  flex: 1 1 auto;
+  min-width: 110px;
+  text-align: right;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  line-height: 18.15px;
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--main-orange, #f2b749);
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.screen[data-screen="1_home"]{width:402px;height:874px;background-image:url("../assets/screens/1_home.png");background-size:402px 874px;}
+.screen[data-screen="1_02_explain"]{width:402px;height:1835px;background-image:url("../assets/screens/1_02_explain.png");background-size:402px 1835px;}
+.screen[data-screen="1_03_situation"]{width:402px;height:874px;background-image:url("../assets/screens/1_03_situation.png");background-size:402px 874px;}
+.screen[data-screen="1_04_search_place01"]{width:402px;height:874px;background-image:url("../assets/screens/1_04_search_place01.png");background-size:402px 874px;}
+.screen[data-screen="membership_popup"]{width:330px;height:220px;background-image:url("../assets/screens/membership_popup.png");background-size:330px 220px;}
+.screen[data-screen="membership_popup_finish"]{width:330px;height:220px;background-image:url("../assets/screens/membership_popup_finish.png");background-size:330px 220px;}
+.screen[data-screen="1_06_cabinet_select"]{width:402px;height:1062px;background-image:url("../assets/screens/1_06_cabinet_select.png");background-size:402px 1062px;}
+.screen[data-screen="1_07_service_select"]{width:402px;height:874px;background-image:url("../assets/screens/1_07_service_select.png");background-size:402px 874px;}
+.screen[data-screen="1_08_address"]{width:402px;height:874px;background-image:url("../assets/screens/1_08_address.png");background-size:402px 874px;}
+.screen[data-screen="1_09_lending_service_select"]{width:402px;height:874px;background-image:url("../assets/screens/1_09_lending_service_select.png");background-size:402px 874px;}
+.screen[data-screen="1_10_store_price"]{width:411px;height:874px;background-image:url("../assets/screens/1_10_store_price.png");background-size:411px 874px;}
+.screen[data-screen="1_11"]{width:402px;height:874px;background-image:url("../assets/screens/1_11.png");background-size:402px 874px;}
+.screen[data-screen="1_12"]{width:402px;height:874px;background-image:url("../assets/screens/1_12.png");background-size:402px 874px;}
+.screen[data-screen="2_menu"]{width:402px;height:874px;background-image:url("../assets/screens/2_menu.png");background-size:402px 874px;}
+.screen[data-screen="2_01_product_upload01"]{width:402px;height:874px;background-image:url("../assets/screens/2_01_product_upload01.png");background-size:402px 874px;}
+.screen[data-screen="2_02_product_upload02"]{width:402px;height:874px;background-image:url("../assets/screens/2_02_product_upload02.png");background-size:402px 874px;}
+.screen[data-screen="2_03_product_upload03"]{width:402px;height:874px;background-image:url("../assets/screens/2_03_product_upload03.png");background-size:402px 874px;}
+.screen[data-screen="2_04_lending_info"]{width:402px;height:874px;background-image:url("../assets/screens/2_04_lending_info.png");background-size:402px 874px;}
+.screen[data-screen="2_05_lending_complete"]{width:402px;height:874px;background-image:url("../assets/screens/2_05_lending_complete.png");background-size:402px 874px;}
+.screen[data-screen="3_01_borrow_select_전체"]{width:402px;height:874px;background-image:url("../assets/screens/3_01_borrow_select_전체.png");background-size:402px 874px;}
+.screen[data-screen="3_01_borrow_select_소형가전"]{width:402px;height:874px;background-image:url("../assets/screens/3_01_borrow_select_소형가전.png");background-size:402px 874px;}
+.screen[data-screen="3_01_borrow_select_소형가구"]{width:402px;height:874px;background-image:url("../assets/screens/3_01_borrow_select_소형가구.png");background-size:402px 874px;}
+.screen[data-screen="3_01_borrow_select_계절용품"]{width:402px;height:874px;background-image:url("../assets/screens/3_01_borrow_select_계절용품.png");background-size:402px 874px;}
+.screen[data-screen="3_01_borrow_select_생활용품"]{width:402px;height:874px;background-image:url("../assets/screens/3_01_borrow_select_생활용품.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail01"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail01.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail02"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail02.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail03"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail03.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail04"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail04.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail05"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail05.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail06"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail06.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail07"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail07.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail08"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail08.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail09"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail09.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail10"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail10.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail11"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail11.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail12"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail12.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail13"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail13.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail14"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail14.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail15"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail15.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail16"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail16.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail17"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail17.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail18"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail18.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail19"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail19.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail20"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail20.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail21"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail21.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail22"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail22.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail23"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail23.png");background-size:402px 874px;}
+.screen[data-screen="3_02_borrow_detail24"]{width:402px;height:874px;background-image:url("../assets/screens/3_02_borrow_detail24.png");background-size:402px 874px;}
+.screen[data-screen="3_03_borrow_price"]{width:402px;height:874px;background-image:url("../assets/screens/3_03_borrow_price.png?v=7");background-size:402px 874px;}
+.screen[data-screen="3_03"]{width:402px;height:874px;background-image:url("../assets/screens/3_03.png");background-size:402px 874px;}

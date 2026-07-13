@@ -1,0 +1,294 @@
+{
+  "name": "final_teamproject 3 jw",
+  "id": "334:2602",
+  "type": "PAGE",
+  "children": [
+    {
+      "id": "334:2603",
+      "name": "3-03_borrow_price",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2694",
+      "name": "3-03",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2731",
+      "name": "3-02_borrow_detail11",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2777",
+      "name": "3-02_borrow_detail10",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2826",
+      "name": "3-02_borrow_detail09",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2877",
+      "name": "3-02_borrow_detail08",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2928",
+      "name": "3-02_borrow_detail07",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:2979",
+      "name": "3-02_borrow_detail06",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3030",
+      "name": "3-02_borrow_detail05",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3081",
+      "name": "3-02_borrow_detail04",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3132",
+      "name": "3-02_borrow_detail03",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3183",
+      "name": "3-02_borrow_detail02",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3234",
+      "name": "3-02_borrow_detail01",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3285",
+      "name": "3-02_borrow_detail12",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3336",
+      "name": "3-02_borrow_detail13",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3387",
+      "name": "3-02_borrow_detail14",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3438",
+      "name": "3-02_borrow_detail15",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3489",
+      "name": "3-02_borrow_detail16",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3540",
+      "name": "3-02_borrow_detail17",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3591",
+      "name": "3-02_borrow_detail18",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3642",
+      "name": "3-02_borrow_detail19",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3693",
+      "name": "3-02_borrow_detail20",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3744",
+      "name": "3-02_borrow_detail21",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3795",
+      "name": "3-02_borrow_detail22",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3846",
+      "name": "3-02_borrow_detail23",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3897",
+      "name": "3-02_borrow_detail24",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:3948",
+      "name": "3-01_borrow_select_전체",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4050",
+      "name": "3-01_borrow_select_소형가전",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4152",
+      "name": "3-01_borrow_select_소형가구",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4254",
+      "name": "3-01_borrow_select_계절용품",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4356",
+      "name": "3-01_borrow_select_생활용품",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4458",
+      "name": "2-05_lending_complete",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4495",
+      "name": "2-04_lending_info",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4585",
+      "name": "2-03_product_upload03",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4631",
+      "name": "2-02_product_upload02",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4716",
+      "name": "2-01_product_upload01",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4753",
+      "name": "2-menu",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4813",
+      "name": "1-11",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4850",
+      "name": "1-10_store_price",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:4948",
+      "name": "1-09_lending_service_select",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5059",
+      "name": "1-08_address",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5133",
+      "name": "1-07_service_select_02",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5191",
+      "name": "1-07_service_select_01",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5249",
+      "name": "1-07_service_select",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5307",
+      "name": "1-06_cabinet_select",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5416",
+      "name": "1-04_search_place01",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5581",
+      "name": "1-03_situation",
+      "type": "FRAME"
+    },
+    {
+      "id": "334:5709",
+      "name": "1_home",
+      "type": "FRAME"
+    },
+    {
+      "id": "371:2690",
+      "name": "<2. 1-06_cabinet_select 페이지 내 mcp프롬포트> [final_teamproject] page를 조회해. 이제부터 이 페이지를 prototype으로 만들거야.interaction 및 기능을 넣어주고 반응형으로input이 되게 만들어줘. [1-06_cabinet_select] frame을 조회하고 [cabinet_select] layer에서 어떤 [XX_cabinet_card]가 선택되는지에 따라 1. [XX_cabinet_card]의 [XX_info]의 text 값이 [choosed_cabinet_input01]과 [choosed_cabinet_input02]에 동일하게 출력되게끔 기능을 만들어줘. 2.[XX_cabinet_card]의 [XX_price_info]의 text 값이 [choosed_price_input01]과 [choosed_price_input02]에 동일하게 출력되게끔 기능을 만들어줘. 모든 요소의 디자인은 그대로 유지해. 페이지의 이미지와 typogragpy는 기존 요소의 속성을 유지하고 text값만 변동하게끔 만들어줘.",
+      "type": "TEXT"
+    },
+    {
+      "id": "371:2691",
+      "name": "<1. [1-04_search_place01]페이지 장소 지정 mcp 프롬포트> [final_teamproject 3 jw]페이지를 조회해. 그리고[1-04_search_place01]프레임을 조회해. 여기서 선택되는 요소에 따라 다른 페이지에서 출력되는 값이 달라지는 반응형 페이지를 만들거야. [지점별 평점 거리]layer에서 어떤 [place_select_card_nn]요소를 클릭하는지에 따라 1.해당 [place_select_card_nn]의 [place_select_text01]의 text값을 [choosed_place_input01],[choosed_place_input02]에 동일한 값으로 출력해. 이때 text의 값만 동일하고 design이나 typographic은 기존 [choosed_place_input01],[choosed_place_input02]의 속성을 유지해.",
+      "type": "TEXT"
+    },
+    {
+      "id": "371:2692",
+      "name": "<3. [1-10_store_price] 페이지 내 총액 계산 mcp 프롬포트> [1-10_store_price]페이지를 조회해. [choosed_price_input02]의 숫자값을 감지해서 그 수에서 5000을 더한 값을 [total_price01],[total_price02]의 값으로 출력해. 모든 디자인과 typogragpy는 기존 요소의 속성을 유지하고 text값만 변동하게끔 만들어줘.",
+      "type": "TEXT"
+    },
+    {
+      "id": "409:4199",
+      "name": "[1-08_address]프레임에서 값을 입력하고 싶어.  [address_input] layer를 클릭하면 [text_input]의 기존에 있는 text를 모두 지우고 사용자가 값을 자유롭게 text를 입력할 수 있는 값으로 만들어줘.",
+      "type": "TEXT"
+    },
+    {
+      "id": "378:3072",
+      "name": "1-02_explain",
+      "type": "FRAME"
+    },
+    {
+      "id": "409:3291",
+      "name": "membership_popup",
+      "type": "FRAME"
+    },
+    {
+      "id": "409:3292",
+      "name": "membership_popup_finish",
+      "type": "FRAME"
+    }
+  ],
+  "currentPage": {
+    "id": "334:2602",
+    "name": "final_teamproject 3 jw",
+    "childCount": 55
+  },
+  "pages": [
+    {
+      "id": "334:2602",
+      "name": "final_teamproject 3 jw",
+      "childCount": 55
+    }
+  ]
+}
