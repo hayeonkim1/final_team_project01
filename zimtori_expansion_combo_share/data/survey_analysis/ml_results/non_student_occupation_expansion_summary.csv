@@ -1,0 +1,6 @@
+﻿expansion_rank,occupation,n,avg_predicted_prob_pct,avg_actual_prob_pct,preference_rate_binary,avg_predicted_q6,avg_actual_q6
+1,자영업자,7,93.41,94.29,100.0,4.67,4.71
+2,직장인,26,86.38,86.92,100.0,4.32,4.35
+3,취업 준비 중,19,82.81,82.11,84.21,4.14,4.11
+4,프리랜서,5,71.26,68.0,40.0,3.56,3.4
+5,무직,1,66.1,60.0,0.0,3.3,3.0

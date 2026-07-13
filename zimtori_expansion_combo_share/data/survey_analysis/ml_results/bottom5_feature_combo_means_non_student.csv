@@ -1,0 +1,6 @@
+﻿rank,occupation,housing_type,is_single_household,pain_score,trust_score,n,avg_predicted_prob_pct,avg_actual_prob_pct,combo_label
+1,취업 준비 중,4인 가구 이상,0,3.0,2.0,2,63.4,60.0,occupation=취업 준비 중 | housing_type=4인 가구 이상 | is_single_household=0 | pain_score=3.0 | trust_score=2.0
+2,취업 준비 중,1인 가구,1,4.0,4.0,3,80.33,80.0,occupation=취업 준비 중 | housing_type=1인 가구 | is_single_household=1 | pain_score=4.0 | trust_score=4.0
+3,직장인,2인 가구,0,4.0,4.0,2,80.65,80.0,occupation=직장인 | housing_type=2인 가구 | is_single_household=0 | pain_score=4.0 | trust_score=4.0
+4,직장인,1인 가구,1,4.0,4.0,8,81.62,82.5,occupation=직장인 | housing_type=1인 가구 | is_single_household=1 | pain_score=4.0 | trust_score=4.0
+5,직장인,1인 가구,1,4.0,5.0,3,91.23,93.33,occupation=직장인 | housing_type=1인 가구 | is_single_household=1 | pain_score=4.0 | trust_score=5.0
