@@ -1,6 +1,0 @@
-﻿rank,respondent_id,gender,age_group,occupation,housing_type,move_frequency,storage_need_score,pain_score,trust_score,has_rental_experience,consignment_positive,is_single_household,pain_transport,pain_space,pain_cost,predicted_q6_score,predicted_prob_pct,actual_prob_pct,predicted_preference,actual_preference,q6_service_intent
-1,7,남자,20대,취업 준비 중,1인 가구,2,5,5.0,2.0,1,1,1,1,0,0,4.96,99.2,100.0,1,1,5.0
-2,12,남자,20대,취업 준비 중,1인 가구,2,5,5.0,2.0,1,1,1,1,0,0,4.96,99.2,100.0,1,1,5.0
-3,66,남자,40대,자영업자,4인 가구 이상,4,5,5.0,5.0,1,1,0,1,1,1,4.96,99.1,100.0,1,1,5.0
-4,63,남자,20대,취업 준비 중,1인 가구,2,4,5.0,5.0,1,1,1,0,0,1,4.95,99.0,100.0,1,1,5.0
-5,81,남자,50대이상,자영업자,4인 가구 이상,4,5,4.0,5.0,0,1,0,0,0,0,4.94,98.8,100.0,1,1,5.0
